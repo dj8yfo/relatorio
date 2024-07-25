@@ -15,4 +15,11 @@ Similar behaviour with [issue](https://github.com/near/cargo-near/issues/188)
 ![wsl_revision.png](./wsl_revision.png)
 ![no_docker_wsl](no_docker_wsl.png)
 
-<!-- 4. docker build (no WSL) on https://github.com/dj8yfo/sample_workspace/tree/50e63492a8ec4e844b251921824bf26e216832cb -->
+4. docker (WSL 2 backend) build on https://github.com/dj8yfo/sample_workspace/tree/580e67ea792351be1b0313931159ed62f098b702 => `test-docker-dep-windows.testnet`
+
+![docker_wsl2_backend](docker_wsl2_backend.png)
+
+
+5. docker (Hyper-V backend) build 
+
+The Hyper-V role cannot be installed on Windows 10 Home.
