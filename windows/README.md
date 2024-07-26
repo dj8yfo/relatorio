@@ -23,3 +23,14 @@ Similar behaviour with [issue](https://github.com/near/cargo-near/issues/188)
 5. docker (Hyper-V backend) build 
 
 The Hyper-V role cannot be installed on Windows 10 Home.
+
+6. docker (from WSL) with docker *integrations with WSL2* distros enabled
+
+it may be advisable to add the following to https://docs.near.org/blog/getting-started-on-windows to be able to use this flow
+
+
+```bash
+wsl --set-default-version 2
+```
+
+![docker_from_integ_wsl2_distro.png](./docker_from_integ_wsl2_distro.png)
