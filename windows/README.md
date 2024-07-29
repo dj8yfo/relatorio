@@ -12,7 +12,6 @@ Similar behaviour with [issue](https://github.com/near/cargo-near/issues/188)
 
 ### 3. `--no-docker` (in WSL) build on `cargo near new` project
 
-![wsl_revision.png](./wsl_revision.png)
 ![no_docker_wsl](no_docker_wsl.png)
 
 ### 4. docker (WSL 2 backend, not from WSL) build on https://github.com/dj8yfo/sample_workspace/tree/580e67ea792351be1b0313931159ed62f098b702 => `test-docker-dep-windows.testnet`
